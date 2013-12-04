@@ -8,5 +8,5 @@ function hide(){
 }
 
 /* add the CSS class when the button is clicked */
-button.addEventListener("click", hide, false);
+button.addEventListener("dblclick", hide, false);
 
