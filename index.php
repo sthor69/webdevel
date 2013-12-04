@@ -1,8 +1,20 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <title>Click to Hide</title>
+    <meta charset="utf-8">
+<!-- css -->
+    <link rel="stylesheet" href="css/hide.css">
   </head>
-
   <body>
-    <p> asldjaklsdjklajhskdja </p>
+    <button type="button" id="hide">Hide the text</button>
+    <div id="target">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor metus,
+      sagittis et aliquam et, ornare et libero. Etiam eu nisi felis, ac posuere metus.
+      Vivamus molestie bibendum imperdiet. Etiam et faucibus metus.</p>
+    </div><!--/#target-->
+    <!-- javascript -->
+    <script src="js/hide.js"></script>
   </body>
-</head>
+</html>
+
