@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="./css/style.css">
+<link rel="stylesheet" type="text/css" href="css/style.css">
 <meta charset=utf-8 />
 <title>HTML5 jQuery Tabs</title>
 </head>
@@ -43,7 +43,7 @@
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
-<script src="./js/html5jtabs.js"></script>
+<script src="js/html5jtabs.js"></script>
 <script>
 $(function() {
   $(".tabs a").html5jTabs();
