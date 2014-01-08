@@ -28,7 +28,8 @@
     If other, please specify:
     <input type="text" name="fruit" list="fruits"> <br />
     <input type="search" name="search"> <br />
-    <input type="tel" name="tel" id="tel" required>
+    <input type="tel" name="tel" id="tel" required> <br />
+    <input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date">
    </label>
   </div>
   
