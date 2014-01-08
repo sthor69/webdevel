@@ -1,20 +1,53 @@
-<!doctype html>
-<html lang="en">
-  <head>
-    <title>Click to Hide</title>
-    <meta charset="utf-8">
-<!-- css -->
-    <link rel="stylesheet" href="css/hide.css">
-  </head>
-  <body>
-    <button type="button" id="hide">Hide the text</button>
-    <div id="target">
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi dolor metus,
-      sagittis et aliquam et, ornare et libero. Etiam eu nisi felis, ac posuere metus.
-      Vivamus molestie bibendum imperdiet. Etiam et faucibus metus.</p>
-    </div><!--/#target-->
-    <!-- javascript -->
-    <script src="js/hide.js"></script>
-  </body>
-</html>
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
+<meta charset=utf-8 />
+<title>HTML5 jQuery Tabs</title>
+</head>
+<body>
+  <div class="tabs">
+    <a data-toggle="tab1">Tab1</a>
+    <a data-toggle="tab2">Tab2</a>
+    <a data-toggle="tab3">Tab3</a>
+    <a data-toggle="tab4">Tab4</a>
+    <a data-toggle="tab5">Tab5</a>
+  </div>
+<div class="tabContent">  
+  <div id="tab1">
+    <h5>Tab1</h5>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sollicitudin nibh. Duis semper, diam sed iaculis dictum, libero erat molestie dui, ac suscipit felis leo sed ipsum. </p>
+  </div>
+  
+  <div id="tab2">
+    
+    <h5>Tab2</h5>
+    <p>Donec pellentesque sapien neque, ac lobortis erat facilisis quis. Praesent faucibus arcu eros. Proin id tortor euismod, vulputate neque id, placerat nunc.</p>
+  </div>
+  
+  <div id="tab3">
+    <h5>Tab3</h5>
+    <p>Duis justo mi, egestas euismod placerat a, eleifend vitae lacus. Integer non odio nec libero lacinia vulputate. Phasellus ante lectus, congue vel volutpat vitae, dictum quis est. </p>
+  </div>
+  
+  <div id="tab4">
+    <h5>Tab4</h5>
+    <p>Nulla varius sit amet augue vel consequat. Aenean faucibus vehicula interdum. Integer eleifend, lectus eget vulputate feugiat, nibh nulla congue ipsum, eu mattis tortor nulla vitae diam. Maecenas rutrum risus non libero ullamcorper, nec vehicula sapien tincidunt. </p>
+  </div>
+  
+  <div id="tab5">
+    <h5>Tab5</h5>
+    <p>Suspendisse vulputate ornare dui, sed luctus est mattis nec. Curabitur ut dolor eleifend, vulputate purus et, ullamcorper tortor. In posuere ultricies lectus. Vestibulum vitae odio ut est sagittis porta. </p>
+  </div>
+  
+</div>
 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+<script src="./js/html5jtabs.js"></script>
+<script>
+$(function() {
+  $(".tabs a").html5jTabs();
+});
+</script>
+</body>
+</html>
