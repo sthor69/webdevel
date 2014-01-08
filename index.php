@@ -29,7 +29,8 @@
     <input type="text" name="fruit" list="fruits"> <br />
     <input type="search" name="search"> <br />
     <input type="tel" name="tel" id="tel" required> <br />
-    <input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date">
+    <input id="startdate" name="startdate" min="2012-01-01" max="2013-01-01" type="date"> <br />
+    <input id="color" name="color" type="color">
    </label>
   </div>
   
