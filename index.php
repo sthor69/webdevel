@@ -18,6 +18,16 @@
     <h5>Tab1</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sollicitudin nibh. Duis semper, diam sed iaculis dictum, libero erat molestie dui, ac suscipit felis leo sed ipsum. </p>
     <input type="text" name="user-name" id="user-name" placeholder="at least 3 characters" required>
+    <label>Your favorite fruit:
+      <datalist id="fruits">
+         <option value="Blackberry">Blackberry</option>
+         <option value="Blackcurrant">Blackcurrant</option>
+         <option value="Blueberry">Blueberry</option>
+         <!-- . -->
+      </datalist>
+    If other, please specify:
+    <input type="text" name="fruit" list="fruits">
+   </label>
   </div>
   
   <div id="tab2">
