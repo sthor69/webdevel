@@ -17,7 +17,7 @@
   <div id="tab1">
     <h5>Tab1</h5>
     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget sollicitudin nibh. Duis semper, diam sed iaculis dictum, libero erat molestie dui, ac suscipit felis leo sed ipsum. </p>
-    <input type="text" name="user-name" id="user-name" placeholder="at least 3 characters">
+    <input type="text" name="user-name" id="user-name" placeholder="at least 3 characters" required>
   </div>
   
   <div id="tab2">
