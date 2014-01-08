@@ -26,7 +26,8 @@
          <!-- . -->
       </datalist>
     If other, please specify:
-    <input type="text" name="fruit" list="fruits">
+    <input type="text" name="fruit" list="fruits"> <br />
+    <input type="search" name="search">
    </label>
   </div>
   
